@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
-import Logo from './assets/tokopedia-logo.svg';
+import Logo from './assets/2.svg';
 import Menu from './assets/menu.png';
 import CloseButton from './assets/close.svg';
 const Header = () => {
@@ -35,10 +35,10 @@ const Header = () => {
                 <a href="#why">Why Us</a>
               </li>
               <li>
-                <a href="http://">Testimonial</a>
+                <a href="#testimonial">Testimonial</a>
               </li>
               <li>
-                <a href="http://">FAQ</a>
+                <a href="#faq">FAQ</a>
               </li>
             </ul>
           </div>
