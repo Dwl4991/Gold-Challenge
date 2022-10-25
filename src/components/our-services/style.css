@@ -1,5 +1,50 @@
-.our-services {
-  padding-top: 120px;
-  height: 500px;
-  background-color: blue;
+.our-service {
+  padding-top: 136px;
+}
+
+.img-service img {
+  display: flex;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.deskripsi {
+  padding: 20px 40px;
+  /* padding-left: 70px;  */
+}
+
+.deskripsi h1 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  /* padding: 22px 60px 5px 60px ; */
+  padding-bottom: 10px;
+}
+
+.deskripsi p {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* padding: 22px 50px ; */
+/* padding-left: 70px; */
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.deskripsi ul {
+  display: flex;
+  align-items: center;
+}
+
+.deskripsi li {
+  padding: 10px 16px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
 }
