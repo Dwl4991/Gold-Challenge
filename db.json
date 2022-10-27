@@ -107,6 +107,71 @@
       "updatedAt": "2019-10-28T13:24:33.132Z",
       "description": "odio.",
       "id": 7
+    },
+    {
+      "name": "",
+      "category": 6,
+      "price": 7290,
+      "status": true,
+      "start_rent_at": "2040-07-03T03:00:07.069Z",
+      "finish_rent_at": "2002-02-26T07:56:36.623Z",
+      "image": "http://loremflickr.com/640/480/brazil,rio",
+      "createdAt": "2097-04-15T17:34:57.248Z",
+      "updatedAt": "2019-10-28T13:24:33.132Z",
+      "description": "odio.",
+      "id": 8
+    },
+    {
+      "name": "lambo",
+      "category": 6,
+      "price": 7290,
+      "status": true,
+      "start_rent_at": "2040-07-03T03:00:07.069Z",
+      "finish_rent_at": "2002-02-26T07:56:36.623Z",
+      "image": "http://loremflickr.com/640/480/brazil,rio",
+      "createdAt": "2097-04-15T17:34:57.248Z",
+      "updatedAt": "2019-10-28T13:24:33.132Z",
+      "description": "odio.",
+      "id": 9
+    },
+    {
+      "name": "vw",
+      "category": 6,
+      "price": 7290,
+      "status": true,
+      "start_rent_at": "2040-07-03T03:00:07.069Z",
+      "finish_rent_at": "2002-02-26T07:56:36.623Z",
+      "image": "http://loremflickr.com/640/480/brazil,rio",
+      "createdAt": "2097-04-15T17:34:57.248Z",
+      "updatedAt": "2019-10-28T13:24:33.132Z",
+      "description": "odio.",
+      "id": 10
+    },
+    {
+      "name": "mazda",
+      "category": 6,
+      "price": 7290,
+      "status": true,
+      "start_rent_at": "2040-07-03T03:00:07.069Z",
+      "finish_rent_at": "2002-02-26T07:56:36.623Z",
+      "image": "http://loremflickr.com/640/480/brazil,rio",
+      "createdAt": "2097-04-15T17:34:57.248Z",
+      "updatedAt": "2019-10-28T13:24:33.132Z",
+      "description": "odio.",
+      "id": 11
+    },
+    {
+      "name": "holden",
+      "category": 6,
+      "price": 7290,
+      "status": true,
+      "start_rent_at": "2040-07-03T03:00:07.069Z",
+      "finish_rent_at": "2002-02-26T07:56:36.623Z",
+      "image": "http://loremflickr.com/640/480/brazil,rio",
+      "createdAt": "2097-04-15T17:34:57.248Z",
+      "updatedAt": "2019-10-28T13:24:33.132Z",
+      "description": "odio.",
+      "id": 12
     }
   ]
 }

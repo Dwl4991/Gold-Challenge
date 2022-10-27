@@ -3,6 +3,7 @@ import './style.css';
 import Logo from './assets/2.svg';
 import Menu from './assets/menu.png';
 import CloseButton from './assets/close.svg';
+import { Link } from 'react-router-dom';
 const Header = () => {
   const [active, setActive] = useState(false);
 
@@ -17,8 +18,9 @@ const Header = () => {
       <div className="container">
         <div className="row">
           <div className="logo">
-          <a href="#home">
-            <img src={Logo} alt="logo saya" /></a>
+          <Link to="/">
+            <img src={Logo} alt="logo saya" />
+            </Link>
           </div>
           <div className={`overlay-bg ${active ? 'menu-active' : ''}`} />
           <div className={`sidebar ${active ? 'menu-active' : ''}`}>
