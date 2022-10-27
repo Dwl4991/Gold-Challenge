@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css'
 import { Link } from 'react-router-dom';
+import Imgcar from './assets/img_car.png';
 const HeroSection = () => {
   return (
     <section className="hero-section" id="home">
@@ -20,7 +21,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="hero-thumbnail">
-        <img src="" alt="" />
+        <img src={Imgcar} alt="" />
       </div>
     </section>
    

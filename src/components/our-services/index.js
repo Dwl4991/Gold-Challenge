@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css'
+import ImgService from './assets/img_service.png';
+import Imgcek from './assets/Group 53.png';
 const OurServices = () => {
   // const [nama, setNama] = useState("");
 
@@ -11,7 +13,7 @@ const OurServices = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12">
             <div className="img-service">
-              {/* <img src="./images/img_service.png" alt=""> */}
+              <img src={ImgService} alt="" />
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
@@ -21,23 +23,23 @@ const OurServices = () => {
                 kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting,
                 dll.</p>
               <ul>
-                {/* <img src="./images/Group 53.png" alt=""> */}
+                <img src={Imgcek} alt="" />
                 <li>Sewa Mobil Dengan Supir di Bali 12 Jam</li>
               </ul>
               <ul>
-                {/* <img src="./images/Group 53.png" alt=""> */}
+                <img src={Imgcek} alt="" />
                 <li>Sewa Mobil Lepas Kunci di Bali 24 Jam</li>
               </ul>
               <ul>
-                {/* <img src="./images/Group 53.png" alt=""> */}
+                <img src={Imgcek} alt="" />
                 <li>Sewa Mobil Jangka Panjang Bulanan</li>
               </ul>
               <ul>
-                {/* <img src="./images/Group 53.png" alt=""> */}
+              <img src={Imgcek} alt="" />
                 <li>Gratis Antar - Jemput Mobil di Bandara</li>
               </ul>
               <ul>
-                {/* <img src="./images/Group 53.png" alt=""> */}
+              <img src={Imgcek} alt="" />
                 <li>Layanan Airport Transfer / Drop In Out</li>
               </ul>
             </div>

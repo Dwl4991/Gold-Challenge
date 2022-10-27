@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage';
 import CariMobil from './pages/CariMobil';
 import Detail from './pages/Detail';
 import Header from './components/header';
+import Footer from './components/footer';
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
         <Route path="/cari-mobil" element={<CariMobil />} />
         <Route path="/cari-mobil/:productId" element={<Detail />} />
       </Routes>
+      <Footer />
+
     </div>
   );
 };
