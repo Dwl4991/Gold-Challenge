@@ -15,7 +15,7 @@ const Testimonial = () => {
     return (
       <section className="testimonial" id="testimonial">
         <div className="container">
-          <div className="testi-head">
+          <div className="testi">
             <h3>Testimonial</h3>
             <h4>Berbagai review positif dari para pelanggan kami</h4>
           </div>

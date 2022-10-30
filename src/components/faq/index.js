@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { } from 'react';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import {
     Accordion,
@@ -9,14 +9,7 @@ import {
 } from 'react-accessible-accordion';
 import './style.css'
 const Faq = () => {
-    const [open, setOpen] = useState('');
-    const toggle = (id) => {
-      if (open === id) {
-        setOpen('');
-      } else {
-        setOpen(id);
-      }
-    };
+  
   
   
     return (
@@ -30,15 +23,15 @@ const Faq = () => {
             </div>
             </div>
             <div className="col-lg-7 col-md-12">
-            <Accordion open={open} toggle={toggle} className='accordion'>
+            <Accordion>
             <div className='accordion-border'>
             <AccordionItem className='accordion-item'>
-                <AccordionItemHeading targetId="1">
-                    <AccordionItemButton targetId="1">
+                <AccordionItemHeading >
+                    <AccordionItemButton >
                     Apa saja syarat yang dibutuhkan?
                     </AccordionItemButton>
                 </AccordionItemHeading>
-                <AccordionItemPanel accordionId="1">
+                <AccordionItemPanel >
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut error accusamus, exercitationem tempora itaque sunt doloribus nihil officiis dolores fugiat.
                     </p>
@@ -48,11 +41,11 @@ const Faq = () => {
             <div className='accordion-border'>
             <AccordionItem className='accordion-item'>
                 <AccordionItemHeading>
-                    <AccordionItemButton targetId="1">
+                    <AccordionItemButton >
                     Berapa hari minimal sewa mobil lepas kunci?
                     </AccordionItemButton>
                 </AccordionItemHeading>
-                <AccordionItemPanel accordionId="1">
+                <AccordionItemPanel >
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut error accusamus, exercitationem tempora itaque sunt doloribus nihil officiis dolores fugiat.
                     </p>
@@ -62,11 +55,11 @@ const Faq = () => {
             <div className='accordion-border'>
             <AccordionItem className='accordion-item'>
                 <AccordionItemHeading>
-                    <AccordionItemButton targetId="1">
+                    <AccordionItemButton >
                     Berapa hari sebelumnya sabaiknya booking sewa mobil?
                     </AccordionItemButton>
                 </AccordionItemHeading>
-                <AccordionItemPanel accordionId="1">
+                <AccordionItemPanel >
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut error accusamus, exercitationem tempora itaque sunt doloribus nihil officiis dolores fugiat.
                     </p>
@@ -76,11 +69,11 @@ const Faq = () => {
             <div className='accordion-border'>
             <AccordionItem className='accordion-item'>
                 <AccordionItemHeading>
-                    <AccordionItemButton targetId="1">
+                    <AccordionItemButton >
                     Apakah Ada biaya antar-jemput?
                     </AccordionItemButton>
                 </AccordionItemHeading>
-                <AccordionItemPanel accordionId="1">
+                <AccordionItemPanel >
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut error accusamus, exercitationem tempora itaque sunt doloribus nihil officiis dolores fugiat.
                     </p>
@@ -90,11 +83,11 @@ const Faq = () => {
             <div className='accordion-border'>
             <AccordionItem className='accordion-item'>
                 <AccordionItemHeading>
-                    <AccordionItemButton targetId="1">
+                    <AccordionItemButton >
                     Bagaimana jika terjadi kecelakaan
                     </AccordionItemButton>
                 </AccordionItemHeading>
-                <AccordionItemPanel accordionId="1">
+                <AccordionItemPanel >
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut error accusamus, exercitationem tempora itaque sunt doloribus nihil officiis dolores fugiat.
                     </p>

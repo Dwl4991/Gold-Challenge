@@ -3,13 +3,13 @@
   max-width: 150%;
 }
 
-.testi-head {
+.testi {
   padding: 8px 0;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.testi-head h3 {
+.testi h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -17,7 +17,7 @@
   padding: 8px 0;
 }
 
-.testi-head h4 {
+.testi h4 {
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
