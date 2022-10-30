@@ -48,3 +48,28 @@
   font-size: 14px;
   line-height: 20px;
 }
+
+
+@media (max-width:991px) {
+  .our-services {
+    padding-top: 150px;
+  }
+
+  .img-service img {
+    max-width: 85%;
+  }
+
+  .deskripsi {
+    padding: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .our-services {
+    padding-top: 100px;
+  }
+
+  .deskripsi {
+    padding: 15px 15px 0 15px;
+  }
+}

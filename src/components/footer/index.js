@@ -55,8 +55,8 @@ const Footer = () => {
             </div>
             <div className="col-lg-2 col-md-6">
               <div className="copyright">
-                <h1>Copyright Binar 2022</h1>
-                <img src={logo} alt="logo Rentcar" />
+               <h1>Copyright Binar 2022</h1>
+               <a href='#home'><img src={logo} alt="logo Rentcar" /></a>  
               </div>
             </div>
         </div>

@@ -12,3 +12,40 @@
     }
   }
 }
+
+.card img {
+  height: 350px;
+  object-fit: cover;
+  padding: 80px 20px;
+}
+
+.card-desctiption h3 {
+  font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Neutral/01 */
+
+color: #000000;
+}
+
+.card-desctiption .price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding: 4px 0;
+}
+
+.card-desctiption p {
+  font-weight: 700;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  padding: 4px 0;
+}

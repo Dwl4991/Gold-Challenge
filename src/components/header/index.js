@@ -10,7 +10,9 @@ const Header = () => {
   const openSidebar = () => {
     setActive(true);
   };
-  
+  const closeSidebar = () => {
+    setActive(false);
+  };
 
   return (
     
@@ -26,7 +28,7 @@ const Header = () => {
           <div className={`sidebar ${active ? 'menu-active' : ''}`}>
             <div className="top-sidebar">
               <h3>BCR</h3>
-              <div className="close-icon">
+              <div className="close-icon" onClick={closeSidebar}>
                 <img src={CloseButton} alt="" />
               </div>
             </div>
